@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Stocks.Data
+namespace Stock_App.Data
 {
     public interface IStockService
     {

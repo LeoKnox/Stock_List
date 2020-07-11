@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Stocks.Data;
+using Stock_App.Data;
 
 namespace Stock_App
 {
@@ -30,7 +30,7 @@ namespace Stock_App
                 configuration.RootPath = "ClientApp/build";
             });
 
-            services.AddTransient<IStockService, StockService>();
+            services.AddTransient<IStockService, StockService>
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

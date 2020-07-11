@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Stocks.Data
+namespace Stock_App.Data
 {
     public class Stock
     {
